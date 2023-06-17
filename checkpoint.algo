@@ -1,0 +1,17 @@
+ALGORITHM algo_checkpoint
+VAR
+length:INTEGER := 0;
+wordCount:INTEGER := 0;
+vowelCount:INTEGER:= 0;
+sentence:STRING;
+BEGIN
+sentence:= "You have to keep in mind that";
+
+FOR EACH character IN sentence
+length = length + 1;
+
+IF (character is a space) THEN
+wordCount =wordCount + 1; //Checking for the Word word Count
+
+
+END
